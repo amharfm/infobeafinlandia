@@ -2,13 +2,14 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://unpkg.com/mermaid@8.0.0-rc.8/src/themes/mermaid.scss">
 	<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
 <style>
     .accordion {
        background-color: #fff;
         color: #444;
         cursor: pointer;
-        padding: 18px;
+        padding: 3px;
         width: 100%;
         border: none;
         text-align: left;
@@ -86,7 +87,6 @@
 <body onload="muat()">
 
 	<h2>Informasi Beasiswa Finlandia</h2>
-	<h5>Dihimpun dan disusun oleh: Nadhirariani & Dini Rahmawati</h5>
 	<h6>Diperbarui pada Desember 2017</h6>
 	
 	<div style="background-color:#F1F1F1; overflow-x:scroll; ">
@@ -132,6 +132,7 @@
 		<button class="btn" onclick="filterSelection('master')"> master</button>
 		<button class="btn" onclick="filterSelection('pendaftaran')"> pendaftaran</button>
 		<button class="btn" onclick="filterSelection('puasa')"> puasa</button>
+		<button class="btn" onclick="filterSelection('proses')"> proses</button>
 		<button class="btn" onclick="filterSelection('rp')"> Residence Permit</button>
 		<button class="btn" onclick="filterSelection('sarjana')"> sarjana</button>
 		<button class="btn" onclick="filterSelection('sosial')"> sosial</button>
@@ -141,11 +142,61 @@
 		<button class="btn" onclick="filterSelection('vegan')"> vegan</button>
 	</div>
 
-	<p>Tap pertanyaannya untuk membuka atau menutup jawaban</p>
+	<p>Tap pertanyaan dibawah ini untuk membuka atau menutup jawaban</p>
 
 <div class="container">
+	<div class="filterDiv proses pendaftaran">
+		<div class="accordion">> Bagaimana langkah dan proses umum pendaftaran studi di Finlandia hingga keberangkatan?</div>
+		<div class="panel">
+			<div class="mermaid">
+				graph TD
+				A((Mulai)) 
+				B[Menemukan jenjang,<br>jurusan/konsentrasi tujuan]
+				C[Menentukan kampus-kampus<br> tujuan di Finlandia dan <br>persyaratan umum mahasiswa] 
+				D[Mengumpulkan <br>persyaratan umum resmi<br> mahasiswa] 
+				E[Mencapai batas minimum<br> kecakapan berbahasa asing]
+				F[Memeriksa persyaratan tambahan<br> maupun prosedur lain pada <br>pendaftaran online] 
+				G[Melakukan pendaftaran online]
+				H[Menerima LoA]
+				I[Mengirim berkas,<br>jika diminta]
+				J[Memastikan lokasi <br>kampus dan tempat<br> tinggal]
+				K[Membuat <br>Residence Permit]
+				L[Berkomunikasi <br>dengan Tutor<br> atau lainnya]
+				M[Mempersiapkan barang <br>dan tiket pesawat]
+				N[Keberangkatan]
+				O[Sampai di tempat tinggal<br> di Finlandia]
+				P[Melapor ke KBRI]
+				Q[Menyampaikan dokumen asli<br> yang diminta pada Prodi]
+				R((Mulai <br> perkuliahan))
+
+				A --> B
+				A --> F
+				B --> C
+				C --> D
+				D --> E
+				E --> F
+				F --> |Desember-Februari| G
+				G --> |Maret/April/Mei| H
+				K --> M
+
+				H --> J
+				J --> K
+				H --> L
+				L --> |Februari - Mei| I
+
+				I --> N 
+				M --> N
+				L --> N
+				N --> |Agustus/September| O
+				O --> P
+				P --> Q
+				Q --> |September| R
+
+			</div>			
+		</div>
+	</div>
   	<div class="filterDiv daya kualitas bahasa suasana aman">
-  		<div class="accordion">Apa sajakah faktor-faktor yang menjadi daya tarik dari negara tempat kamu menempuh studi?</div>
+  		<div class="accordion">> Apa sajakah faktor-faktor yang menjadi daya tarik dari negara tempat kamu menempuh studi?</div>
   		<div class="panel">
 	  		<p><strong>Kualitas pendidikan</strong>. Berdasarkan Global Competitiveness Report 2016, Finlandia merupakan negara dengan pendidikan tinggi dan training terbaik di Eropa. Finlandia merupakan negara yang sangat memperhatikan pendidikan. Anggaran pemerintah untuk pendidikan cukup tinggi sehingga mendorong kualitas pendidikan, riset, dan penelitian. Kualitas pendidikan juga sangat terjamin karena diawasi ketat oleh pemerintah melalui Lembaga FINEEC. </p>
 	  		<p><strong>Program internasional yang beragam</strong>. Finlandia memiliki banyak program yang ditawarkan dalam Bahasa Inggris. Mahasiswa yang belajar di Finlandia pun datang dari berbagai negara sehingga lingkungan belajar pun umumnya internasional.  </p>
@@ -154,7 +205,7 @@
 		</div>
 	</div>
   	<div class="filterDiv beasiswa gratis bahasa hidup sarjana master doktoral">
-  		<div class="accordion">Sebutkan jenis-jenis beasiswa yang ada di negara tempat kamu studi!</div>
+  		<div class="accordion">> Sebutkan jenis-jenis beasiswa yang ada di negara tempat kamu studi!</div>
   		<div class="panel">
 	  		<p><strong>Biaya pendidikan gratis</strong>: Semua program berbahasa lokal (Finnish atau Swedish) ditawarkan secara gratis (baik untuk mahasiswa lokal maupun mahasiswa internasional diluar EU/EEA). Mahasiswa hanya diharuskan membayar student union fee, berkisar antara 50-100 euro per semester. Mahasiswa tingkat doktoral (baik program berbahasa lokal maupun bahasa Inggris) juga tidak dikenakan biaya pendidikan. </p>
 	  		<p><strong>Beasiswa dari Universitas </strong>(tuition fee): Mahasiswa non-EU/EEA (program sarjana dan master) yang berkuliah dalam program berbahasa Inggirs (mulai tahun 2017) dikenakan biaya pendidikan yang berkisar antara 8.000–15.000 euro per tahun. Namun, pemerintah mewajibkan setiap universitas untuk menyediakan program beasiswa untuk mahasiswa non-EU/EEA. Terdapat universitas yang menyediakan beasiswa penuh, ada pula universitas yang hanya menawarkan beasiswa parsial. Pendaftaran beasiswa ini umumnya dilakukan bersamaan dengan pendaftaran atau setelah penerimaan (atas tawaran dari universitas). Beasiswa dari universitas umumnya tidak mencakup biaya hidup. </p>
@@ -164,14 +215,14 @@
 		</div>
 	</div>
   	<div class="filterDiv beasiswa nonformal">
-  		<div class="accordion">Apakah ada beasiswa non-formal (Student Exchange, Short Course, Professional Course) di negara kamu tinggal?</div>
+  		<div class="accordion">> Apakah ada beasiswa non-formal (Student Exchange, Short Course, Professional Course) di negara kamu tinggal?</div>
   		<div class="panel">
 	  		<p>Mahasiswa student exchange dari universitas partner tidak dikenakan biaya pendidikan. 
 	  		Terdapat beberapa short course/summer course yang diselenggarakan oleh universitas, namun program ini merupakan program berbayar (kecuali program dalam bahasa lokal) </p>
 		</div>
 	</div>
   	<div class="filterDiv jurusan favorit">
-  		<div class="accordion">Apa sajakah jurusan yang menjadi favorit untuk diambil dan universitas unggulan dari negara tempat kamu menempuh studi? Sekiranya memungkinkan dapat disebutkan beberapa alasan utamanya. </div>
+  		<div class="accordion">> Apa sajakah jurusan yang menjadi favorit untuk diambil dan universitas unggulan dari negara tempat kamu menempuh studi? Sekiranya memungkinkan dapat disebutkan beberapa alasan utamanya. </div>
   		<div class="panel">
 	  		<p><strong>IT and Game Development</strong>: IT menjadi salah satu jurusan favorit di Finlandia karena Finlandia merupakan salah satu pelopor pengembang teknologi informasi. Salah satu kontribusi Finlandia di bidang IT adalah Linux Krenel yang dikembangkan di University of Helsinki. Selain itu, IT juga digemari karena kuatnya start-up culture di Finlandia dan banyaknya industri game Finlandia ternama di dunia. </p>
 	  		<p><strong>Pendidikan</strong>: Finlandia terkenal dengFan negara yang paling inovatif dalam bidang pendidikan. Berdasarkan PISA beberapa tahun terakhir, Finlandiaia merupakan salah satu negara yang memiliki Pendidikan dasar terbaik. Di Finlandia, pengajar/guru merupakan profesi yang paling dihormati dan profesi favorit. Oleh karena itu, kompetisi untuk masuk ke sekolah guru sangat tinggi. </p>
@@ -180,13 +231,13 @@
 		</div>
 	</div>
   	<div class="filterDiv linearitas sarjana jurusan">
-  		<div class="accordion">Bagi calon pelajar tingkat Master dan Doktoral, apakah di negara kamu tinggal seorang calon pelajar harus memiliki ilmu yang linear dari yang diambil ketika menempuh studi Sarjana? </div>
+  		<div class="accordion">> Bagi calon pelajar tingkat Master dan Doktoral, apakah di negara kamu tinggal seorang calon pelajar harus memiliki ilmu yang linear dari yang diambil ketika menempuh studi Sarjana? </div>
   		<div class="panel">
 	  		<p>Secara umum tidak ada keharusan untuk memiliki ilmu linear dari yang diambil sebelumnya. Tetapi, tentu setiap program memiliki kriteria spesifik sesuai bidang ilmu dan latar pendidikan yang dibutuhkan dalam program tersebut. </p>
 		</div>
 	</div>
   	<div class="filterDiv administrasi sarjana master pendaftaran loa rp akomodasi">
-  		<div class="accordion">Dapatkah dijelaskan secara garis besar proses administrasi untuk bisa melanjutkan pendidikan di negara tempat kamu menempuh studi? </div>
+  		<div class="accordion">> Dapatkah dijelaskan secara garis besar proses administrasi untuk bisa melanjutkan pendidikan di negara tempat kamu menempuh studi? </div>
   		<div class="panel ">
 	  		<p><strong>Sarjana dan Master</strong></p>
 				<li/>Pendaftaran pendidikan tingkat tinggi dilakukan secara terpusat.  
@@ -211,7 +262,7 @@
 		</div>
 	</div>
   	<div class="filterDiv pendaftaran akademik">
-  		<div class="accordion">Tolong tuliskan secara umum kalender akademik di negara tempat kamu menempuh studi! (perkiraan) </div>
+  		<div class="accordion">> Tolong tuliskan secara umum kalender akademik di negara tempat kamu menempuh studi! (perkiraan) </div>
   		<div class="panel">
 	  		<p>Periode Pendaftaran: November-Januari </p>
 			<p>Autumn semester: September-December (2 periode) </p>
@@ -221,13 +272,13 @@
 		</div>
 	</div>
   	<div class="filterDiv bahasa bekerja">
-  		<div class="accordion">Seberapa pentingkah bahasa lokal di negara tempat kamu studi untuk dipelajari? Apabila penting, apakah ada lembaga sertifikasi bahasa khusus yang dibutuhkan untuk melanjutkan studi di negara tersebut?</div>
+  		<div class="accordion">> Seberapa pentingkah bahasa lokal di negara tempat kamu studi untuk dipelajari? Apabila penting, apakah ada lembaga sertifikasi bahasa khusus yang dibutuhkan untuk melanjutkan studi di negara tersebut?</div>
   		<div class="panel ">
 	  		<p>Bahasa lokal tidak begitu penting untuk pelajar yang belajar di kelas internasional karena umumnya mereka berada di lingkungan internasional. Masyarakat terutama di kota besar mayoritas bisa berbahasa Inggris. Bahasa lokal menjadi sangat penting jika pelajar ingin bekerja di Finlandia. Untuk bekerja, biasanya dibutuhkan sertifikasi bahasa Finlandia atau kemampuan bahasa Swedia (hanya di beberapa kota yang bahasa utamanya Swedia). </p>
 		</div>
 	</div>
   	<div class=" filterDiv hidup kantin makanan transportasi">
-  		<div class="accordion">Berapa kisaran biaya hidup di negara tempat kamu menempuh studi perbulannya?</div>
+  		<div class="accordion">> Berapa kisaran biaya hidup di negara tempat kamu menempuh studi perbulannya?</div>
   		<div class="panel">
 	  		<p>Berdasarkan situs resmi Study in Finlandia, biaya hidup pelajar berkisar antara 700-900 euro per bulan. Namun, angka ini sangat relatif, berdasarkan gaya hidup masing-masing individu dan besarnya kota tempat tinggal. Berikut kisaran pengeluaran utama: </p>
 	  		<p><img src="Screenshot1.png" width="75%"></p>
@@ -237,7 +288,7 @@
 		</div>
 	</div>
   	<div class=" filterDiv bahasa sosial agama halal puasa vegan">
-  		<div class="accordion">Bagaimana gambaran kehidupan sosial-agama di negara tempat kamu menempuh studi? Adakah yang perlu diperhatikan para calon pelajar yang sangat berbeda dari kehidupan di Indonesia? </div>
+  		<div class="accordion">> Bagaimana gambaran kehidupan sosial-agama di negara tempat kamu menempuh studi? Adakah yang perlu diperhatikan para calon pelajar yang sangat berbeda dari kehidupan di Indonesia? </div>
   		<div class="panel">
 	  		<p><strong>Sosial</strong></p>
 				<li/>Bahasa Inggris (lisan) dapat digunakan di tempat umum, terutama di kota-kota besar. Umumnya terdapat pelayanan dalam bahasa Inggris untuk public services. Namun, informasi dan petunjuk hanya ditulis dalam bahasa Finnish atau Swedish.  
@@ -252,20 +303,20 @@
 		</div>
 	</div>
   	<div class=" filterDiv bekerja">
-  		<div class="accordion">Apakah diperbolehkan mengambil kerja part-time selama berkuliah? (Jika ada, apa pekerjaan part-time yang umum dilakukan dan berapa pendapatan kasarnya?) </div>
+  		<div class="accordion">> Apakah diperbolehkan mengambil kerja part-time selama berkuliah? (Jika ada, apa pekerjaan part-time yang umum dilakukan dan berapa pendapatan kasarnya?) </div>
   		<div class="panel">
 	  		<p>Pelajar diperbolehkan bekerja selama 25 jam per minggu saat semester akademik berlangsung, sedangan saat libur musim panas dan natal pelajar boleh bekera full-time. Tetapi, mencari pekerjaan di Finland tidak mudah dan banyak yang membutuhkan kemampuan berbahasa Finnish. Biasanya pelajar dengan kemampuan bahasa terbatas hanya bekerja fisik (cuci piring, cleaner di hotel/restoran). </p>
 		</div>
 	</div>
   	<div class=" filterDiv fasilitas diskon kesehatan transportasi kantin rp">
-  		<div class="accordion">Apa saja fasilitas umum yang dapat dinikmati di negara tempat kamu studi? (transportasi, jaminan kesehatan dll) </div>
+  		<div class="accordion">> Apa saja fasilitas umum yang dapat dinikmati di negara tempat kamu studi? (transportasi, jaminan kesehatan dll) </div>
   		<div class="panel">
 	  		<p><strong>Diskon pelajar</strong>: transportasi (dalam dan antar kota), makanan di kantin pelajar, program diskon pelajar (toko yang bekerjasama dengan Frank) </p>
 	  		<p><strong>Kesehatan</strong>: student health service (NB: Saat mengajukan aplikasi residence permit, mahasiswa tetap wajib memiliki asuransi kesehatan pribadi) </p>
 		</div>
 	</div>
   	<div class=" filterDiv beasiswa hidup">
-  		<div class="accordion">3 poin penting yang harus diketahui oleh para pencari beasiswa di Finlandia?</div>
+  		<div class="accordion">> 3 poin penting yang harus diketahui oleh para pencari beasiswa di Finlandia?</div>
   		<div class="panel">
 	  		<p>Lembaga penyedia beasiswa tidak banyak, terutama untuk beasiswa yang mencakup biaya hidup. </p>
 	  		<p>Umumnya info beasiswa disebarkan oleh universitas dan tidak diiklankan secara luas. Beberapa universitas menawarkan beasiswa setelah proses penerimaan mahasiswa selesai (setelah mahasiswa resmi diterima). Disarankan untuk memperhatikan situs universitas atau menghubungi international office universitas untuk informasi lebih lanjut. </p>
@@ -273,7 +324,7 @@
 		</div>
 	</div>
   	<div class="filterDiv eksternal">
-  		<div class="accordion">Sumber eksternal:</div>
+  		<div class="accordion">> Sumber eksternal:</div>
   		<div class="panel">
 	  		<p><a href="http://www.studyinfinland.fi">www.studyinFinland.fi</a></p>
 	  		<p><a href="http://www.studyinfo.fi">www.studyinfo.fi</a></p>
@@ -342,9 +393,16 @@
 
 <p align="center"><a target="new" href="https://www.instagram.com/ppi.finlandia/"><img width="40" src="ppi.png"></div>
 
+<script src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js"></script>
+  
+
 </body>
 <script>
 	function muat (){
+		mermaid.initialize({
+			startOnLoad:true,
+			theme: 'forest'
+		});
 		/*$.get( "https://raw.githubusercontent.com/amharfm/infobeafinlandia/master/teks.txt", function( data ) {
 		  var mystring = data;
 		  var regexp = /#(\w+)/g;
