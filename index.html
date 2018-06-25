@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
 <style>
     .accordion {
        background-color: #fff;
@@ -89,9 +89,22 @@
 	<h5>Dihimpun dan disusun oleh: Nadhirariani & Dini Rahmawati</h5>
 	<h6>Diperbarui pada Desember 2017</h6>
 	
-	<p>Tap pertanyaannya untuk membuka atau menutup jawaban</p>
+	<div style="background-color:#F1F1F1; overflow-x:scroll; ">
+		<table border="0">
+			<tr>
+				<td><a href="https://www.instagram.com/p/BibqfjEA6UD/?taken-by=ppidunia" target="new"><img src="kecil-1.png"></a></td>
+				<td><a href="https://www.instagram.com/p/Bibq0tYAYru/?taken-by=ppidunia" target="new"><img src="kecil-2.png"></a></td>
+				<td><a href="https://www.instagram.com/p/BibDTOKgrNL/?taken-by=ppidunia" target="new"><img src="kecil-3.png"></a></td>
+				<td><a href="https://www.instagram.com/p/BibDC_TAicf/?taken-by=ppidunia" target="new"><img src="kecil-4.png"></a></td>
+				<td><a href="https://www.instagram.com/p/BibDMN_gbk_/?taken-by=ppidunia" target="new"><img src="kecil-5.png"></a></td>
+				<td><a href="https://www.instagram.com/p/BiaXvLag7XT/?taken-by=ppidunia" target="new"><img src="kecil-6.png"></a></td>
+				<td><a href="https://www.instagram.com/p/BiaXksEg1Vd/?taken-by=ppidunia" target="new"><img src="kecil-7.png"></a></td>
+				<td><a href="https://www.instagram.com/p/BiaXZCkAPtO/?taken-by=ppidunia" target="new"><img src="kecil-8.png"></a></td>				
+			</tr>
+		</table>
+	</div>
 
-	<div id="myBtnContainer" style="background-color:#F1F1F1; height:120px; overflow-y:scroll; ">
+	<div id="myBtnContainer" style="background-color:#F1F1F1; height:98px; overflow-y:scroll; ">
 	  	<button class="btn active" onclick="filterSelection('all')"> Seluruhnya</button>
 	  	<button class="btn" onclick="filterSelection('agama')"> agama</button>
 		<button class="btn" onclick="filterSelection('akademik')"> akademik</button>
@@ -127,6 +140,8 @@
 		<button class="btn" onclick="filterSelection('transportasi')"> transportasi</button>
 		<button class="btn" onclick="filterSelection('vegan')"> vegan</button>
 	</div>
+
+	<p>Tap pertanyaannya untuk membuka atau menutup jawaban</p>
 
 <div class="container">
   	<div class="filterDiv daya kualitas bahasa suasana aman">
@@ -265,7 +280,8 @@
 	  		<p><a href="http://www.weforum.org">www.weforum.org</a></p>
 	  		<p><a href="http://www.helsinki.fi">www.helsinki.fi</a></p>
 	  		<p><a href="http://www.frank.fi">www.frank.fi</a></p>
-	  		<p>dan</p>
+	  		<p>dan</p>	  		
+	  		<p><a href="https://www.instagram.com/ppidunia/">www.instagram.com/ppidunia</a></p>
 	  		<p><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements">www.w3schools.com filter</a></p>
 	  		<p><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion_symbol">www.w3schools.com accordion</a></p>
 
@@ -324,10 +340,12 @@
 	}
 </script>
 
+<p align="center"><a target="new" href="https://www.instagram.com/ppi.finlandia/"><img width="40" src="ppi.png"></div>
+
 </body>
 <script>
 	function muat (){
-		$.get( "https://raw.githubusercontent.com/amharfm/infobeafinlandia/master/teks.txt", function( data ) {
+		/*$.get( "https://raw.githubusercontent.com/amharfm/infobeafinlandia/master/teks.txt", function( data ) {
 		  var mystring = data;
 		  var regexp = /#(\w+)/g;
 		  var match = regexp.exec(mystring);
@@ -335,7 +353,7 @@
 			  console.log(match[1])
 			  match = regexp.exec(mystring)
 			} 
-		});
+		});*/
 	}
 
     var acc = document.getElementsByClassName("accordion");
