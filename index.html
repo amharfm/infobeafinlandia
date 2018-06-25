@@ -1,1 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<style>
+    .accordion {
+       background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
 
+    .active, .accordion:hover {
+        background-color: #2196F3;
+        color: #fff;
+    }
+
+    .accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .active:after {
+        content: "\2212";
+    }
+
+    .panel {
+        padding: 0 24px;
+        background-color: #FEFFD1;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
+
+	.filterDiv {
+	  float: left;
+	  background-color: #eee;
+	  color: #444;
+	  /*width: 100px;*/
+	  /*line-height: 100px;*/
+	  /*text-align: center;*/
+	  margin: 2px;
+	  display: none;
+	}
+
+	.show {
+	  display: block;
+	}
+
+	.container {
+	  margin-top: 20px;
+	  overflow: hidden;
+	}
+
+	/* Style the buttons */
+	.btn {
+	  border: none;
+	  outline: none;
+	  padding: 12px 16px;
+	  background-color: #f1f1f1;
+	  cursor: pointer;
+	}
+
+	.btn:hover {
+	  background-color: #ddd;
+	}
+
+	.btn.active {
+	  background-color: #666;
+	  color: white;
+	}
+</style>
+
+</head>
+<body onload="muat()">
+
+	<h2>Informasi Beasiswa Finlandia</h2>
+	<h5>Dihimpun dan disusun oleh: Nadhirariani & Dini Rahmawati</h5>
+	<h6>Diperbarui pada Desember 2017</h6>
+
+	<div id="myBtnContainer">
+	  	<button class="btn active" onclick="filterSelection('all')"> Seluruhnya</button>
+	  	<button class="btn" onclick="filterSelection('agama')"> agama</button>
+		<button class="btn" onclick="filterSelection('akademik')"> akademik</button>
+		<button class="btn" onclick="filterSelection('administrasi')"> administrasi</button>
+		<button class="btn" onclick="filterSelection('akomodasi')"> akomodasi</button>
+		<button class="btn" onclick="filterSelection('aman')"> aman</button>
+		<button class="btn" onclick="filterSelection('bahasa')"> bahasa</button>
+		<button class="btn" onclick="filterSelection('beasiswa')"> beasiswa</button>
+		<button class="btn" onclick="filterSelection('nonformal')"> Beasiswa nonformal</button>
+		<button class="btn" onclick="filterSelection('hidup')"> biaya hidup</button>
+		<button class="btn" onclick="filterSelection('bekerja')"> bekerja</button>
+		<button class="btn" onclick="filterSelection('diskon')"> diskon</button>
+		<button class="btn" onclick="filterSelection('doktoral')"> doktoral</button>
+		<button class="btn" onclick="filterSelection('fasilitas')"> fasilitas</button>
+		<button class="btn" onclick="filterSelection('favorit')"> favorit</button>
+		<button class="btn" onclick="filterSelection('gratis')"> gratis</button>
+		<button class="btn" onclick="filterSelection('halal')"> halal</button>
+		<button class="btn" onclick="filterSelection('jurusan')"> jurusan</button>
+		<button class="btn" onclick="filterSelection('kantin')"> kantin</button>
+		<button class="btn" onclick="filterSelection('kesehatan')"> kesehatan</button>
+		<button class="btn" onclick="filterSelection('kualitas')"> kualitas</button>
+		<button class="btn" onclick="filterSelection('linearitas ')"> linearitas</button>
+		<button class="btn" onclick="filterSelection('loa')"> LoA</button>
+		<button class="btn" onclick="filterSelection('makanan')"> makanan</button>
+		<button class="btn" onclick="filterSelection('master')"> master</button>
+		<button class="btn" onclick="filterSelection('pendaftaran')"> pendaftaran</button>
+		<button class="btn" onclick="filterSelection('puasa')"> puasa</button>
+		<button class="btn" onclick="filterSelection('rp')"> Residence Permit</button>
+		<button class="btn" onclick="filterSelection('sarjana')"> sarjana</button>
+		<button class="btn" onclick="filterSelection('sosial')"> sosial</button>
+		<button class="btn" onclick="filterSelection('suasana')"> suasana</button>
+		<button class="btn" onclick="filterSelection('eksternal')"> sumber eksternal</button>
+		<button class="btn" onclick="filterSelection('transportasi')"> transportasi</button>
+		<button class="btn" onclick="filterSelection('vegan')"> vegan</button>
+	</div>
+
+<div class="container">
+  	<div class="filterDiv daya kualitas bahasa suasana aman">
+  		<div class="accordion">Apa sajakah faktor-faktor yang menjadi daya tarik dari negara tempat kamu menempuh studi?</div>
+  		<div class="panel">
+	  		<p><strong>Kualitas pendidikan</strong>. Berdasarkan Global Competitiveness Report 2016, Finlandia merupakan negara dengan pendidikan tinggi dan training terbaik di Eropa. Finlandia merupakan negara yang sangat memperhatikan pendidikan. Anggaran pemerintah untuk pendidikan cukup tinggi sehingga mendorong kualitas pendidikan, riset, dan penelitian. Kualitas pendidikan juga sangat terjamin karena diawasi ketat oleh pemerintah melalui Lembaga FINEEC. </p>
+	  		<p><strong>Program internasional yang beragam</strong>. Finlandia memiliki banyak program yang ditawarkan dalam Bahasa Inggris. Mahasiswa yang belajar di Finlandia pun datang dari berbagai negara sehingga lingkungan belajar pun umumnya internasional.  </p>
+	  		<p><strong>Suasana yang mendukung untuk belajar</strong>. Finlandia merupakan negara yang damai dan suasanyanya tentram. Lingkungannya sangat kondusif untuk belajar.  </p>
+	  		<p><strong>Keamanan</strong>. Finlandia dikenal sebagai negara yang sangat aman. Berdasarkan World Economic Forum, Finlandia merupakan negara paling aman di dunia. </p>
+		</div>
+	</div>
+  	<div class="filterDiv beasiswa gratis bahasa hidup sarjana master doktoral">
+  		<div class="accordion">Sebutkan jenis-jenis beasiswa yang ada di negara tempat kamu studi!</div>
+  		<div class="panel">
+	  		<p><strong>Biaya pendidikan gratis</strong>: Semua program berbahasa lokal (Finnish atau Swedish) ditawarkan secara gratis (baik untuk mahasiswa lokal maupun mahasiswa internasional diluar EU/EEA). Mahasiswa hanya diharuskan membayar student union fee, berkisar antara 50-100 euro per semester. Mahasiswa tingkat doktoral (baik program berbahasa lokal maupun bahasa Inggris) juga tidak dikenakan biaya pendidikan. </p>
+	  		<p><strong>Beasiswa dari Universitas </strong>(tuition fee): Mahasiswa non-EU/EEA (program sarjana dan master) yang berkuliah dalam program berbahasa Inggirs (mulai tahun 2017) dikenakan biaya pendidikan yang berkisar antara 8.000–15.000 euro per tahun. Namun, pemerintah mewajibkan setiap universitas untuk menyediakan program beasiswa untuk mahasiswa non-EU/EEA. Terdapat universitas yang menyediakan beasiswa penuh, ada pula universitas yang hanya menawarkan beasiswa parsial. Pendaftaran beasiswa ini umumnya dilakukan bersamaan dengan pendaftaran atau setelah penerimaan (atas tawaran dari universitas). Beasiswa dari universitas umumnya tidak mencakup biaya hidup. </p>
+	  		<p><strong>Beasiswa dari lembaga eksternal</strong> (biaya hidup). Walaupun tidak banyak, terdapat beberapa lembaga eksternal yang memberikan beasiswa. Umumnya info ini disalurkan melalui universitas. </p>
+	  		<p><strong>Beasiswa untuk program Doktoral</strong>. Tersedia beasiswa dari CIMO/EDUFI untuk pelajar program doktoral. Beasiswa mencakup biaya hidup sebesar 1500 euro per bulan. </p>
+	  		<p><strong>Erasmus Mundus</strong>. Terdapat beberapa program Erasmus Mundus di Finlandia yang dengan beasiswa mencakup biaya hidup dan biaya perjalanan. </p>
+		</div>
+	</div>
+  	<div class="filterDiv beasiswa nonformal">
+  		<div class="accordion">Apakah ada beasiswa non-formal (Student Exchange, Short Course, Professional Course) di negara kamu tinggal?</div>
+  		<div class="panel">
+	  		<p>Mahasiswa student exchange dari universitas partner tidak dikenakan biaya pendidikan. 
+	  		Terdapat beberapa short course/summer course yang diselenggarakan oleh universitas, namun program ini merupakan program berbayar (kecuali program dalam bahasa lokal) </p>
+		</div>
+	</div>
+  	<div class="filterDiv jurusan favorit">
+  		<div class="accordion">Apa sajakah jurusan yang menjadi favorit untuk diambil dan universitas unggulan dari negara tempat kamu menempuh studi? Sekiranya memungkinkan dapat disebutkan beberapa alasan utamanya. </div>
+  		<div class="panel">
+	  		<p><strong>IT and Game Development</strong>: IT menjadi salah satu jurusan favorit di Finlandia karena Finlandia merupakan salah satu pelopor pengembang teknologi informasi. Salah satu kontribusi Finlandia di bidang IT adalah Linux Krenel yang dikembangkan di University of Helsinki. Selain itu, IT juga digemari karena kuatnya start-up culture di Finlandia dan banyaknya industri game Finlandia ternama di dunia. </p>
+	  		<p><strong>Pendidikan</strong>: Finlandia terkenal dengFan negara yang paling inovatif dalam bidang pendidikan. Berdasarkan PISA beberapa tahun terakhir, Finlandiaia merupakan salah satu negara yang memiliki Pendidikan dasar terbaik. Di Finlandia, pengajar/guru merupakan profesi yang paling dihormati dan profesi favorit. Oleh karena itu, kompetisi untuk masuk ke sekolah guru sangat tinggi. </p>
+	  		<p><strong>Environment technology and innovation</strong>: Finlandia merupakan negara yang sangat peduli terhadap lingkungan. Perpaduan antara kecanggihan teknologi dan kepedulian terhadap lingkungan melahirkan banyak inovasi di bidang teknologi lingkungan dan menjadikan bidang ini cukup populer. </p>
+	  		<p><strong>Architecture, art and design</strong>: Bidang ini juga merupakan bidang favorit karna keistimewaan Finlandia sebagai salah satu pusat arsitektur modern dan disain, tertutama banyak dikenal dengan Scandinavian design yang diantaranya adalah mabel, peralatan makan, design dengan kaca (glass art  and glassware) dan lain sebagainya. </p>
+		</div>
+	</div>
+  	<div class="filterDiv linearitas sarjana jurusan">
+  		<div class="accordion">Bagi calon pelajar tingkat Master dan Doktoral, apakah di negara kamu tinggal seorang calon pelajar harus memiliki ilmu yang linear dari yang diambil ketika menempuh studi Sarjana? </div>
+  		<div class="panel">
+	  		<p>Secara umum tidak ada keharusan untuk memiliki ilmu linear dari yang diambil sebelumnya. Tetapi, tentu setiap program memiliki kriteria spesifik sesuai bidang ilmu dan latar pendidikan yang dibutuhkan dalam program tersebut. </p>
+		</div>
+	</div>
+  	<div class="filterDiv administrasi sarjana master pendaftaran loa rp akomodasi">
+  		<div class="accordion">Dapatkah dijelaskan secara garis besar proses administrasi untuk bisa melanjutkan pendidikan di negara tempat kamu menempuh studi? </div>
+  		<div class="panel ">
+	  		<p><strong>Sarjana dan Master</strong></p>
+				<li/>Pendaftaran pendidikan tingkat tinggi dilakukan secara terpusat.  
+				<li/>Pendaftaran online melalui situs www.studyinfo.fi: sekitar Desember-Januari (calon mahasiswa dapat memilih hingga 6 program dalam 1 aplikasi). 
+				<li/>Kirim berkas lewat post.
+				<li/>Ujian. Beberapa program (untuk tingkat sarjana) menggunakan sistem ujian. Ujian diselenggarakan secara global. Lokasi ujian terdekat dengan Indonesia adalah di Vietnam. 
+				<li/>Video interview. Video interview biasanya dilakukan sekitar bulan Februari untuk program tertentu (terutama tingkat master).  
+				<li/>Letter of acceptance: Maret-April 
+				<li/>Konfirmasi kedatangan dan registrasi 
+				<li/>Pembayaran student union 
+				<li/>Pengajuan aplikasi residence permit dan akomodasi 
+	  		<p><strong>PhD/Doktoral</strong></p>
+		  		<li/>Pendaftaran pendidikan tingkat tinggi dilakukan secara terpusat.  
+				<li/>Pendaftaran online melalui situs www.studyinfo.fi: sekitar Desember-Januari (calon mahasiswa dapat memilih hingga 6 program dalam 1 aplikasi). 
+				<li/>Kirim berkas lewat post.
+				<li/>Ujian. Beberapa program (untuk tingkat sarjana) menggunakan sistem ujian. Ujian diselenggarakan secara global. Lokasi ujian terdekat dengan Indonesia adalah di Vietnam. 
+				<li/>Video interview. Video interview biasanya dilakukan sekitar bulan Februari untuk program tertentu (terutama tingkat master).  
+				<li/>Letter of acceptance: Maret-April 
+				<li/>Konfirmasi kedatangan dan registrasi 
+				<li/>Pembayaran student union 
+				<li/>Pengajuan aplikasi residence permit dan akomodasi 
+		</div>
+	</div>
+  	<div class="filterDiv pendaftaran akademik">
+  		<div class="accordion">Tolong tuliskan secara umum kalender akademik di negara tempat kamu menempuh studi! (perkiraan) </div>
+  		<div class="panel">
+	  		<p>Periode Pendaftaran: November-Januari </p>
+			<p>Autumn semester: September-December (2 periode) </p>
+			<p>Spring semester: Januari-Mei/Juni (3 periode) </p>
+			<p>Libur musim panas: Juni-Augustus </p>
+			<p>Di Finlandia, tahun akademis dimulai dari Autumn Semester. Biasayanya pendaftaran dibuka sejak November tahun sebelumnya hingga Januari tahun akademik dimulai. 1 Tahun akademik terdiri dari 5 periode. Autumn Semester umumnya adalah pada bulan September-Desember dan terdiri dari 2 periode, sedangkan Spring Semester umumnya dimulai pada bulan Januari hingga akhir Mei/awal Juni, terdiri dari 3 periode. Libur formal hanya terdapat pada akhir semester. Terdapat kelas yang dijadwalkan selesai dalam 1 periode, namun ada pula kelas yang berlangsung selama 2 periode. Periode 5 biasanya tidak diperuntukkan bagi mahasiswa exchange.</p>
+		</div>
+	</div>
+  	<div class="filterDiv bahasa bekerja">
+  		<div class="accordion">Seberapa pentingkah bahasa lokal di negara tempat kamu studi untuk dipelajari? Apabila penting, apakah ada lembaga sertifikasi bahasa khusus yang dibutuhkan untuk melanjutkan studi di negara tersebut?</div>
+  		<div class="panel ">
+	  		<p>Bahasa lokal tidak begitu penting untuk pelajar yang belajar di kelas internasional karena umumnya mereka berada di lingkungan internasional. Masyarakat terutama di kota besar mayoritas bisa berbahasa Inggris. Bahasa lokal menjadi sangat penting jika pelajar ingin bekerja di Finlandia. Untuk bekerja, biasanya dibutuhkan sertifikasi bahasa Finlandia atau kemampuan bahasa Swedia (hanya di beberapa kota yang bahasa utamanya Swedia). </p>
+		</div>
+	</div>
+  	<div class=" filterDiv hidup kantin makanan tranportasi">
+  		<div class="accordion">Berapa kisaran biaya hidup di negara tempat kamu menempuh studi perbulannya?</div>
+  		<div class="panel">
+	  		<p>Berdasarkan situs resmi Study in Finlandia, biaya hidup pelajar berkisar antara 700-900 euro per bulan. Namun, angka ini sangat relatif, berdasarkan gaya hidup masing-masing individu dan besarnya kota tempat tinggal. Berikut kisaran pengeluaran utama: </p>
+	  		<p><img src="Screenshot1.png" width="100%"></p>
+	  		<p>Biaya diatas belum termasuk biaya kegiatan sosial/hiburan dan olah raga. Biaya inilah yang biasanya sangat bergantung pada gaya hidup dan bisa membuat angka pengeluaran tiap orang sangat beragam. </p>
+	  		<p>* Harga paket makan di kantin mahasiswa (program sarjana dan master) adalah 2.40-2.80 euro, termasuk salad, roti, dan minuman, sedangkan untuk mahasiswa program doktoral harga paket makan berkisar antara 4.5-7 euro.  </p>
+			<p>** Di kota-kota tertentu pelajar tidak perlu mengeluarkan biaya transportasi karena perjalanan sehari-hari dapat ditempuh dengan berjalan kaki atau bersepeda.</p>
+		</div>
+	</div>
+  	<div class=" filterDiv bahasa sosial agama halal puasa vegan">
+  		<div class="accordion">Bagaimana gambaran kehidupan sosial-agama di negara tempat kamu menempuh studi? Adakah yang perlu diperhatikan para calon pelajar yang sangat berbeda dari kehidupan di Indonesia? </div>
+  		<div class="panel">
+	  		<p><strong>Sosial</strong></p>
+				<li/>Bahasa Inggris (lisan) dapat digunakan di tempat umum, terutama di kota-kota besar. Umumnya terdapat pelayanan dalam bahasa Inggris untuk public services. Namun, informasi dan petunjuk hanya ditulis dalam bahasa Finnish atau Swedish.  
+				<li/>Masyarakat Finlandia cenderung pendiam dan individualis. Kebanyakan dari mereka tidak berinteraksi dengan orang yang tidak dikenal. Mereka juga sangat menghargai personal space, sehingga mereka biasanya lebih nyaman duduk sendiri atau berada di tempat yang tidak terlalu ramai. 
+				<li/>Umumnya masyarakat saling menyapa secara informal. (Misalnya: memanggil dosen menggunakan nama panggilan). 
+	  		<p><strong>Agama</strong></p>
+				<li/>Kegiatan keagamaan di Finland sangat terorganisir dan seluruh organisasi keagamaan/rumah ibadah tercatat oleh pemerintah.  
+				<li/>Agama mayoritas di Finlandia adalah Kristen Lutheran, namun terdapat pula beberapa gereja Katolik yang tersebar di beberapa kota. 
+				<li/>Tidak banyak tempat beribadah untuk orang Islam. Di Helsinki tersebar beberapa masjid/mushola, tetapi di kota-kota lain tidak banyak. Beberapa universitas memiliki ruang khusus yang dapat digunakan untuk beribadah.  
+				<li/>Puasa tahun 2018 akan bertepatan di musim panas, sehingga harus berpuasa selama 20-22 jam, tergantung lokasi kota. 
+				<li/>Sulit mencari daging halal, tetapi makanan (di supermarket atau restoran) informasi mengenai bahan yang digunakan selalu dicantumkan. Banyak pilihan makanan untuk vegetarian dan vegan. Di kota-kota tertentu terdapat toko yang menjual produk-produk halal. 
+		</div>
+	</div>
+  	<div class=" filterDiv bekerja">
+  		<div class="accordion">Apakah diperbolehkan mengambil kerja part-time selama berkuliah? (Jika ada, apa pekerjaan part-time yang umum dilakukan dan berapa pendapatan kasarnya?) </div>
+  		<div class="panel">
+	  		<p>Pelajar diperbolehkan bekerja selama 25 jam per minggu saat semester akademik berlangsung, sedangan saat libur musim panas dan natal pelajar boleh bekera full-time. Tetapi, mencari pekerjaan di Finland tidak mudah dan banyak yang membutuhkan kemampuan berbahasa Finnish. Biasanya pelajar dengan kemampuan bahasa terbatas hanya bekerja fisik (cuci piring, cleaner di hotel/restoran). </p>
+		</div>
+	</div>
+  	<div class=" filterDiv fasilitas diskon kesehatan transportasi kantin rp">
+  		<div class="accordion">Apa saja fasilitas umum yang dapat dinikmati di negara tempat kamu studi? (transportasi, jaminan kesehatan dll) </div>
+  		<div class="panel">
+	  		<p><strong>Diskon pelajar</strong>: transportasi (dalam dan antar kota), makanan di kantin pelajar, program diskon pelajar (toko yang bekerjasama dengan Frank) </p>
+	  		<p><strong>Kesehatan</strong>: student health service (NB: Saat mengajukan aplikasi residence permit, mahasiswa tetap wajib memiliki asuransi kesehatan pribadi) </p>
+		</div>
+	</div>
+  	<div class=" filterDiv beasiswa hidup">
+  		<div class="accordion">3 poin penting yang harus diketahui oleh para pencari beasiswa di Finlandia?</div>
+  		<div class="panel">
+	  		<p>Lembaga penyedia beasiswa tidak banyak, terutama untuk beasiswa yang mencakup biaya hidup. </p>
+	  		<p>Umumnya info beasiswa disebarkan oleh universitas dan tidak diiklankan secara luas. Beberapa universitas menawarkan beasiswa setelah proses penerimaan mahasiswa selesai (setelah mahasiswa resmi diterima). Disarankan untuk memperhatikan situs universitas atau menghubungi international office universitas untuk informasi lebih lanjut. </p>
+	  		<p>Jika tidak mendapatkan beasiswa biaya hidup, tidak disarankan untuk bergantung pada part-time job saja, terutama bagi yang tidak mempunyai keahlian bahasa lokal.</p>
+		</div>
+	</div>
+  	<div class="filterDiv eksternal">
+  		<div class="accordion">Sumber eksternal:</div>
+  		<div class="panel">
+	  		<p><a href="http://www.studyinfinland.fi">www.studyinFinland.fi</a></p>
+	  		<p><a href="http://www.studyinfo.fi">www.studyinfo.fi</a></p>
+	  		<p><a href="http://www.weforum.org">www.weforum.org</a></p>
+	  		<p><a href="http://www.helsinki.fi">www.helsinki.fi</a></p>
+	  		<p><a href="http://www.frank.fi">www.frank.fi</a></p>
+	  		<p>dan</p>
+	  		<p><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements">www.w3schools.com filter</a></p>
+	  		<p><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion_symbol">www.w3schools.com accordion</a></p>
+
+	  		
+		</div>
+	</div>
+</div>
+
+<script>
+	filterSelection("all")
+
+
+	function filterSelection(c) {
+	  var x, i;
+	  x = document.getElementsByClassName("filterDiv");
+	  if (c == "all") c = "";
+	  for (i = 0; i < x.length; i++) {
+	    w3RemoveClass(x[i], "show");
+	    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+	  }
+
+
+
+	}
+
+	function w3AddClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+	  }
+	}
+
+	function w3RemoveClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    while (arr1.indexOf(arr2[i]) > -1) {
+	      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+	    }
+	  }
+	  element.className = arr1.join(" ");
+	}
+
+	// Add active class to the current button (highlight it)
+	var btnContainer = document.getElementById("myBtnContainer");
+	var btns = btnContainer.getElementsByClassName("btn");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function(){
+	    var current = document.getElementsByClassName("active");
+	    current[0].className = current[0].className.replace(" active", "");
+	    this.className += " active";
+	  });
+	}
+</script>
+
+</body>
+<script>
+	function muat (){
+		$.get( "https://raw.githubusercontent.com/amharfm/infobeafinlandia/master/teks.txt", function( data ) {
+		  var mystring = data;
+		  var regexp = /#(\w+)/g;
+		  var match = regexp.exec(mystring);
+			while (match != null){
+			  console.log(match[1])
+			  match = regexp.exec(mystring)
+			} 
+		});
+	}
+
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+</script>
+</html>
