@@ -1,0 +1,42 @@
+graph TD
+    A((Mulai)) 
+    B["Menemukan jenjang,<br>jurusan/konsentrasi tujuan"]
+    C["Menentukan kampus-kampus<br> tujuan di Finlandia dan <br>persyaratan umum mahasiswa"] 
+    D["Mengumpulkan <br>persyaratan umum resmi<br> mahasiswa"] 
+    E["Mencapai batas minimum<br> kecakapan berbahasa asing"]
+    F["Memeriksa persyaratan tambahan<br> maupun prosedur lain pada <br>pendaftaran online"] 
+    G["Melakukan pendaftaran online"]
+    H["Menerima LoA"]
+    I["Mengirim berkas,<br>jika diminta"]
+    J["Memastikan lokasi <br>kampus dan tempat<br> tinggal"]
+    K["Membuat <br>Residence Permit"]
+    L["Berkomunikasi <br>dengan Tutor<br> atau lainnya"]
+    M["Mempersiapkan barang <br>dan tiket pesawat"]
+    N["Keberangkatan"]
+    O["Sampai di tempat tinggal<br> di Finlandia"]
+    P["Melapor ke KBRI"]
+    Q["Menyampaikan dokumen asli<br> yang diminta pada Prodi"]
+    R((Mulai <br> perkuliahan))
+    
+    A --> B
+    A --> F
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> |Desember-Februari| G
+    G --> |Maret/April/Mei| H
+    K --> M
+
+    H --> J
+    J --> K
+    H --> L
+    L --> |Februari - Mei| I
+
+    I --> N 
+    M --> N
+    L --> N
+    N --> |Agustus/September| O
+    O --> P
+    P --> Q
+    Q --> |September| R

@@ -1,0 +1,465 @@
+{
+   "faq" : [
+      {
+         "pertanyaan" : "Bagaimana langkah dan proses umum pendaftaran studi di Finlandia hingga keberangkatan?",
+         "tag" : [ "proses", "pendaftaran" ],
+         "isi_html" : "<div class=\"mermaid\">\r\n    graph TD\r\n    A((Mulai)) \r\n    B[\"Menemukan jenjang,<br>jurusan/konsentrasi tujuan\"]\r\n    C[\"Menentukan kampus-kampus<br> tujuan di Finlandia dan <br>persyaratan umum mahasiswa\"] \r\n    D[\"Mengumpulkan <br>persyaratan umum resmi<br> mahasiswa\"] \r\n    E[\"Mencapai batas minimum<br> kecakapan berbahasa asing\"]\r\n    F[\"Memeriksa persyaratan tambahan<br> maupun prosedur lain pada <br>pendaftaran online\"] \r\n    G[\"Melakukan pendaftaran online\"]\r\n    H[\"Menerima LoA\"]\r\n    I[\"Mengirim berkas,<br>jika diminta\"]\r\n    J[\"Memastikan lokasi <br>kampus dan tempat<br> tinggal\"]\r\n    K[\"Membuat <br>Residence Permit\"]\r\n    L[\"Berkomunikasi <br>dengan Tutor<br> atau lainnya\"]\r\n    M[\"Mempersiapkan barang <br>dan tiket pesawat\"]\r\n    N[\"Keberangkatan\"]\r\n    O[\"Sampai di tempat tinggal<br> di Finlandia\"]\r\n    P[\"Melapor ke KBRI\"]\r\n    Q[\"Menyampaikan dokumen asli<br> yang diminta pada Prodi\"]\r\n    R((Mulai <br> perkuliahan))\r\n    \r\n    A --> B\r\n    A --> F\r\n    B --> C\r\n    C --> D\r\n    D --> E\r\n    E --> F\r\n    F --> |Desember-Februari| G\r\n    G --> |Maret/April/Mei| H\r\n    K --> M\r\n\r\n    H --> J\r\n    J --> K\r\n    H --> L\r\n    L --> |Februari - Mei| I\r\n\r\n    I --> N \r\n    M --> N\r\n    L --> N\r\n    N --> |Agustus/September| O\r\n    O --> P\r\n    P --> Q\r\n    Q --> |September| R\r\n</div>"
+      },
+      {
+         "pertanyaan" : "Apa sajakah faktor-faktor yang menjadi daya tarik dari negara tempat kamu menempuh studi?",
+         "tag" : [ "daya", "kualitas", "bahasa", "suasana", "aman" ],
+         "isi_baris" : [
+            "<strong>Kualitas pendidikan</strong>. Berdasarkan Global Competitiveness Report 2016, Finlandia merupakan negara dengan pendidikan tinggi dan training terbaik di Eropa. Finlandia merupakan negara yang sangat memperhatikan pendidikan. Anggaran pemerintah untuk pendidikan cukup tinggi sehingga mendorong kualitas pendidikan, riset, dan penelitian. Kualitas pendidikan juga sangat terjamin karena diawasi ketat oleh pemerintah melalui Lembaga FINEEC.",
+            "<strong>Program internasional yang beragam</strong>. Finlandia memiliki banyak program yang ditawarkan dalam Bahasa Inggris. Mahasiswa yang belajar di Finlandia pun datang dari berbagai negara sehingga lingkungan belajar pun umumnya internasional.  ",
+            "<strong>Suasana yang mendukung untuk belajar</strong>. Finlandia merupakan negara yang damai dan suasanyanya tentram. Lingkungannya sangat kondusif untuk belajar.  ",
+            "<strong>Keamanan</strong>. Finlandia dikenal sebagai negara yang sangat aman. Berdasarkan World Economic Forum, Finlandia merupakan negara paling aman di dunia. "
+         ]
+      },
+      {
+         "pertanyaan" : "Sebutkan jenis-jenis beasiswa yang ada di negara tempat kamu studi!",
+         "tag" : [
+            "beasiswa",
+            "gratis",
+            "bahasa",
+            "hidup",
+            "sarjana",
+            "master",
+            "doktoral"
+         ],
+         "isi_baris" : [
+            "<strong>Biaya pendidikan gratis</strong>: Semua program berbahasa lokal (Finnish atau Swedish) ditawarkan secara gratis (baik untuk mahasiswa lokal maupun mahasiswa internasional diluar EU/EEA). Mahasiswa hanya diharuskan membayar student union fee, berkisar antara 50-100 euro per semester. Mahasiswa tingkat doktoral (baik program berbahasa lokal maupun bahasa Inggris) juga tidak dikenakan biaya pendidikan. ",
+            "<strong>Beasiswa dari Universitas </strong>(tuition fee): Mahasiswa non-EU/EEA (program sarjana dan master) yang berkuliah dalam program berbahasa Inggirs (mulai tahun 2017) dikenakan biaya pendidikan yang berkisar antara 8.000-15.000 euro per tahun. Namun, pemerintah mewajibkan setiap universitas untuk menyediakan program beasiswa untuk mahasiswa non-EU/EEA. Terdapat universitas yang menyediakan beasiswa penuh, ada pula universitas yang hanya menawarkan beasiswa parsial. Pendaftaran beasiswa ini umumnya dilakukan bersamaan dengan pendaftaran atau setelah penerimaan (atas tawaran dari universitas). Beasiswa dari universitas umumnya tidak mencakup biaya hidup. ",
+            "<strong>Beasiswa dari lembaga eksternal</strong> (biaya hidup). Walaupun tidak banyak, terdapat beberapa lembaga eksternal yang memberikan beasiswa. Umumnya info ini disalurkan melalui universitas. ",
+            "<strong>Beasiswa untuk program Doktoral</strong>. Tersedia beasiswa dari CIMO/EDUFI untuk pelajar program doktoral. Beasiswa mencakup biaya hidup sebesar 1500 euro per bulan. ",
+            "<strong>Erasmus Mundus</strong>. Terdapat beberapa program Erasmus Mundus di Finlandia yang dengan beasiswa mencakup biaya hidup dan biaya perjalanan. "
+         ]
+      },
+      {
+         "pertanyaan" : "Apakah ada beasiswa non-formal (Student Exchange, Short Course, Professional Course) di negara kamu tinggal?",
+         "tag" : [ "beasiswa", "nonformal" ],
+         "isi_baris" : [
+            "Mahasiswa student exchange dari universitas partner tidak dikenakan biaya pendidikan. Terdapat beberapa short course/summer course yang diselenggarakan oleh universitas, namun program ini merupakan program berbayar (kecuali program dalam bahasa lokal) "
+         ]
+      },
+      {
+         "pertanyaan" : "Apa sajakah jurusan yang menjadi favorit untuk diambil dan universitas unggulan dari negara tempat kamu menempuh studi? Sekiranya memungkinkan dapat disebutkan beberapa alasan utamanya.",
+         "tag" : [ "jurusan", "favorit" ],
+         "isi_baris" : [
+            "<strong>IT and Game Development</strong>: IT menjadi salah satu jurusan favorit di Finlandia karena Finlandia merupakan salah satu pelopor pengembang teknologi informasi. Salah satu kontribusi Finlandia di bidang IT adalah Linux Krenel yang dikembangkan di University of Helsinki. Selain itu, IT juga digemari karena kuatnya start-up culture di Finlandia dan banyaknya industri game Finlandia ternama di dunia. ",
+            "<strong>Pendidikan</strong>: Finlandia terkenal dengFan negara yang paling inovatif dalam bidang pendidikan. Berdasarkan PISA beberapa tahun terakhir, Finlandiaia merupakan salah satu negara yang memiliki Pendidikan dasar terbaik. Di Finlandia, pengajar/guru merupakan profesi yang paling dihormati dan profesi favorit. Oleh karena itu, kompetisi untuk masuk ke sekolah guru sangat tinggi. ",
+            "<strong>Environment technology and innovation</strong>: Finlandia merupakan negara yang sangat peduli terhadap lingkungan. Perpaduan antara kecanggihan teknologi dan kepedulian terhadap lingkungan melahirkan banyak inovasi di bidang teknologi lingkungan dan menjadikan bidang ini cukup populer. ",
+            "<strong>Architecture, art and design</strong>: Bidang ini juga merupakan bidang favorit karna keistimewaan Finlandia sebagai salah satu pusat arsitektur modern dan disain, tertutama banyak dikenal dengan Scandinavian design yang diantaranya adalah mabel, peralatan makan, design dengan kaca (glass art  and glassware) dan lain sebagainya. "
+         ]
+      },
+      {
+         "pertanyaan" : "Bagi calon pelajar tingkat Master dan Doktoral, apakah di negara kamu tinggal seorang calon pelajar harus memiliki ilmu yang linear dari yang diambil ketika menempuh studi Sarjana?",
+         "tag" : [ "linearitas", "sarjana", "jurusan" ],
+         "isi_baris" : [
+            "Secara umum tidak ada keharusan untuk memiliki ilmu linear dari yang diambil sebelumnya. Tetapi, tentu setiap program memiliki kriteria spesifik sesuai bidang ilmu dan latar pendidikan yang dibutuhkan dalam program tersebut. "
+         ]
+      },
+      {
+         "pertanyaan" : "Dapatkah dijelaskan secara garis besar proses administrasi untuk bisa melanjutkan pendidikan di negara tempat kamu menempuh studi?",
+         "tag" : [ "administrasi", "sarjana", "master", "pendaftaran", "loa", "rp" ],
+         "isi_baris" : [
+            "<strong>Sarjana dan Master</strong>",
+            "<p><li/>Pendaftaran pendidikan tingkat tinggi dilakukan secara terpusat.  <li/>Pendaftaran online melalui situs www.studyinfo.fi: sekitar Desember-Januari (calon mahasiswa dapat memilih hingga 6 program dalam 1 aplikasi). <li/>Kirim berkas lewat post.<li/>Ujian. Beberapa program (untuk tingkat sarjana) menggunakan sistem ujian. Ujian diselenggarakan secara global. Lokasi ujian terdekat dengan Indonesia adalah di Vietnam. <li/>Video interview. Video interview biasanya dilakukan sekitar bulan Februari untuk program tertentu (terutama tingkat master).  <li/>Letter of acceptance: Maret-April <li/>Konfirmasi kedatangan dan registrasi <li/>Pembayaran student union <li/>Pengajuan aplikasi residence permit dan akomodasi </p><p><strong>PhD/Doktoral</strong></p><li/>Pendaftaran pendidikan tingkat tinggi dilakukan secara terpusat.  <li/>Pendaftaran online melalui situs www.studyinfo.fi: sekitar Desember-Januari (calon mahasiswa dapat memilih hingga 6 program dalam 1 aplikasi). <li/>Kirim berkas lewat post.<li/>Ujian. Beberapa program (untuk tingkat sarjana) menggunakan sistem ujian. Ujian diselenggarakan secara global. Lokasi ujian terdekat dengan Indonesia adalah di Vietnam. <li/>Video interview. Video interview biasanya dilakukan sekitar bulan Februari untuk program tertentu (terutama tingkat master).  <li/>Letter of acceptance: Maret-April <li/>Konfirmasi kedatangan dan registrasi <li/>Pembayaran student union <li/>Pengajuan aplikasi residence permit dan akomodasi ",
+            "<strong>PhD/Doktoral</strong>",
+            "<li/>Pendaftaran pendidikan tingkat tinggi dilakukan secara terpusat.  <li/>Pendaftaran online melalui situs www.studyinfo.fi: sekitar Desember-Januari (calon mahasiswa dapat memilih hingga 6 program dalam 1 aplikasi). <li/>Kirim berkas lewat post.<li/>Ujian. Beberapa program (untuk tingkat sarjana) menggunakan sistem ujian. Ujian diselenggarakan secara global. Lokasi ujian terdekat dengan Indonesia adalah di Vietnam. <li/>Video interview. Video interview biasanya dilakukan sekitar bulan Februari untuk program tertentu (terutama tingkat master).  <li/>Letter of acceptance: Maret-April <li/>Konfirmasi kedatangan dan registrasi <li/>Pembayaran student union <li/>Pengajuan aplikasi residence permit dan akomodasi "
+         ]
+      },
+      {
+         "pertanyaan" : "Tolong tuliskan secara umum kalender akademik di negara tempat kamu menempuh studi! (perkiraan)",
+         "tag" : [ "pendaftaran", "akademik" ],
+         "isi_baris" : [
+            "<p>Periode Pendaftaran: November-Januari </p><p>Autumn semester: September-December (2 periode) </p><p>Spring semester: Januari-Mei/Juni (3 periode) </p><p>Libur musim panas: Juni-Augustus </p><p>Di Finlandia, tahun akademis dimulai dari Autumn Semester. Biasayanya pendaftaran dibuka sejak November tahun sebelumnya hingga Januari tahun akademik dimulai. 1 Tahun akademik terdiri dari 5 periode. Autumn Semester umumnya adalah pada bulan September-Desember dan terdiri dari 2 periode, sedangkan Spring Semester umumnya dimulai pada bulan Januari hingga akhir Mei/awal Juni, terdiri dari 3 periode. Libur formal hanya terdapat pada akhir semester. Terdapat kelas yang dijadwalkan selesai dalam 1 periode, namun ada pula kelas yang berlangsung selama 2 periode. Periode 5 biasanya tidak diperuntukkan bagi mahasiswa exchange.</p>"
+         ]
+      },
+      {
+         "pertanyaan" : "Seberapa pentingkah bahasa lokal di negara tempat kamu studi untuk dipelajari? Apabila penting, apakah ada lembaga sertifikasi bahasa khusus yang dibutuhkan untuk melanjutkan studi di negara tersebut?",
+         "tag" : [ "bahasa", "bekerja" ],
+         "isi_baris" : [
+            "Bahasa lokal tidak begitu penting untuk pelajar yang belajar di kelas internasional karena umumnya mereka berada di lingkungan internasional. Masyarakat terutama di kota besar mayoritas bisa berbahasa Inggris. Bahasa lokal menjadi sangat penting jika pelajar ingin bekerja di Finlandia. Untuk bekerja, biasanya dibutuhkan sertifikasi bahasa Finlandia atau kemampuan bahasa Swedia (hanya di beberapa kota yang bahasa utamanya Swedia). "
+         ]
+      },
+      {
+         "pertanyaan" : "Berapa kisaran biaya hidup di negara tempat kamu menempuh studi perbulannya?",
+         "tag" : [ "hidup", "kantin", "makanan", "transportasi" ],
+         "isi_baris" : [
+            "Berdasarkan situs resmi Study in Finlandia, biaya hidup pelajar berkisar antara 700-900 euro per bulan. Namun, angka ini sangat relatif, berdasarkan gaya hidup masing-masing individu dan besarnya kota tempat tinggal. Berikut kisaran pengeluaran utama:",
+            "<img src=\"Screenshot1.png\" width=\"75%\">",
+            "Biaya diatas belum termasuk biaya kegiatan sosial/hiburan dan olah raga. Biaya inilah yang biasanya sangat bergantung pada gaya hidup dan bisa membuat angka pengeluaran tiap orang sangat beragam.",
+            "* Harga paket makan di kantin mahasiswa (program sarjana dan master) adalah 2.40-2.80 euro, termasuk salad, roti, dan minuman, sedangkan untuk mahasiswa program doktoral harga paket makan berkisar antara 4.5-7 euro.  ",
+            "** Di kota-kota tertentu pelajar tidak perlu mengeluarkan biaya transportasi karena perjalanan sehari-hari dapat ditempuh dengan berjalan kaki atau bersepeda."
+         ]
+      },
+      {
+         "pertanyaan" : "Bagaimana gambaran kehidupan sosial-agama di negara tempat kamu menempuh studi? Adakah yang perlu diperhatikan para calon pelajar yang sangat berbeda dari kehidupan di Indonesia?",
+         "tag" : [ "bahasa", "sosial", "agama", "halal", "puasa", "vegan", "vegetarian" ],
+         "isi_baris" : [
+            "<p><strong>Sosial</strong></p><li/>Bahasa Inggris (lisan) dapat digunakan di tempat umum, terutama di kota-kota besar. Umumnya terdapat pelayanan dalam bahasa Inggris untuk public services. Namun, informasi dan petunjuk hanya ditulis dalam bahasa Finnish atau Swedish.  <li/>Masyarakat Finlandia cenderung pendiam dan individualis. Kebanyakan dari mereka tidak berinteraksi dengan orang yang tidak dikenal. Mereka juga sangat menghargai personal space, sehingga mereka biasanya lebih nyaman duduk sendiri atau berada di tempat yang tidak terlalu ramai. <li/>Umumnya masyarakat saling menyapa secara informal. (Misalnya: memanggil dosen menggunakan nama panggilan). <p><strong>Agama</strong></p><li/>Kegiatan keagamaan di Finland sangat terorganisir dan seluruh organisasi keagamaan/rumah ibadah tercatat oleh pemerintah.  <li/>Agama mayoritas di Finlandia adalah Kristen Lutheran, namun terdapat pula beberapa gereja Katolik yang tersebar di beberapa kota. <li/>Tidak banyak tempat beribadah untuk orang Islam. Di Helsinki tersebar beberapa masjid/mushola, tetapi di kota-kota lain tidak banyak. Beberapa universitas memiliki ruang khusus yang dapat digunakan untuk beribadah.  <li/>Puasa tahun 2018 akan bertepatan di musim panas, sehingga harus berpuasa selama 20-22 jam, tergantung lokasi kota. <li/>Sulit mencari daging halal, tetapi makanan (di supermarket atau restoran) informasi mengenai bahan yang digunakan selalu dicantumkan. Banyak pilihan makanan untuk vegetarian dan vegan. Di kota-kota tertentu terdapat toko yang menjual produk-produk halal. "
+         ]
+      },
+      {
+         "pertanyaan" : "Apakah diperbolehkan mengambil kerja part-time selama berkuliah? (Jika ada, apa pekerjaan part-time yang umum dilakukan dan berapa pendapatan kasarnya?)",
+         "tag" : [ "bekerja" ],
+         "isi_baris" : [
+            "Pelajar diperbolehkan bekerja selama 25 jam per minggu saat semester akademik berlangsung, sedangan saat libur musim panas dan natal pelajar boleh bekera full-time. Tetapi, mencari pekerjaan di Finland tidak mudah dan banyak yang membutuhkan kemampuan berbahasa Finnish. Biasanya pelajar dengan kemampuan bahasa terbatas hanya bekerja fisik (cuci piring, cleaner di hotel/restoran)."
+         ]
+      },
+      {
+         "pertanyaan" : "Apa saja fasilitas umum yang dapat dinikmati di negara tempat kamu studi? (transportasi, jaminan kesehatan dll)",
+         "tag" : [ "fasilitas", "diskon", "kesehatan", "transportasi", "kantin", "rp" ],
+         "isi_baris" : [
+            "<p><strong>Diskon pelajar</strong>: transportasi (dalam dan antar kota), makanan di kantin pelajar, program diskon pelajar (toko yang bekerjasama dengan Frank) </p><p><strong>Kesehatan</strong>: student health service (NB: Saat mengajukan aplikasi residence permit, mahasiswa tetap wajib memiliki asuransi kesehatan pribadi) </p>"
+         ]
+      },
+      {
+         "pertanyaan" : "3 poin penting yang harus diketahui oleh para pencari beasiswa di Finlandia?",
+         "tag" : [ "beasiswa", "hidup" ],
+         "isi_baris" : [
+            "<p>Lembaga penyedia beasiswa tidak banyak, terutama untuk beasiswa yang mencakup biaya hidup. </p><p>Umumnya info beasiswa disebarkan oleh universitas dan tidak diiklankan secara luas. Beberapa universitas menawarkan beasiswa setelah proses penerimaan mahasiswa selesai (setelah mahasiswa resmi diterima). Disarankan untuk memperhatikan situs universitas atau menghubungi international office universitas untuk informasi lebih lanjut. </p><p>Jika tidak mendapatkan beasiswa biaya hidup, tidak disarankan untuk bergantung pada part-time job saja, terutama bagi yang tidak mempunyai keahlian bahasa lokal.</p>"
+         ]
+      },
+      {
+         "pertanyaan" : "Beasiswa dan Tuition Fee",
+         "tag" : [ "beasiswa", "tuition" ],
+         "isi_baris" : [
+            "<p>Sebelum tahun 2017, seluruh mahasiswa internasional (diluar EU) yang dinyatakan diterima di program mendapatkan beasiswa yang mencakup biaya studi. Dengan demikian, selama berkuliah, mahasiswa tidak perlu membayar tuition fee sama sekali. Namun sejak tahun 2017, ada perubahan kebijakan untuk mahasiswa internasional sebagai berikut :</p><p>Mahasiswa Internasional dapat dinyatakan diterima dengan kewajiban membayar tuition fee. Untuk perkuliahan Master Degree, diberikan kesempatan maksimum 4 tahun.</p><p>Mahasiswa International juga dapat mengajukan beasiswa Tuition Fee bersamaan ketika melakukan pendaftaran dengan menuliskan essay pengajuan beasiswa. Form dan instruksi penulisan essay ini berada di dalam form pendaftaran.</p><p>Untuk Mahasiswa yang dinyatakan diterima dengan beasiswa, wajib memenuhi 55 ECTS di tahun pertama supaya tetap mendapatkan beasiswa di tahun kedua.</p><p>Mahasiswa beasiswa wajib menyelesaikan studi dalam waktu 2 tahun. Jika lebih dari 2 tahun, maka biaya akademik tahun selanjutnya menjadi tanggungan mahasiswa yaitu 13.000 euro/ tahun akademik.</p><p>Mengingat program ini adalah research-based yang mana mensyaratkan penulisan Thesis sebagai salah satu syarat kelulusan, bagi yang ingin memutuskan untuk mendaftar dapat pastikan bahwa setidaknya telah memiliki target penelitian yang akan dilakukan. Silakan baca SDG (Sustainable Developmen Goals) dari UN (United Nations) poin nomor 4 sebab program ini menargetkan penelitian pada hal tersebut.</p>"
+         ],
+         "warna_acc" : "background-color:#0686e8; color:#fff;"
+      },
+      {
+         "pertanyaan" : "[OULU] Kecakapan Bahasa",
+         "tag" : [ "oulu", "bahasa" ],
+         "isi_baris" : [
+            "<p>Kedua jurusan ini menggunakan bahasa Inggris, seluruh bahan bacaan maupun tugas atau skripsi juga dalam bahasa Inggris. Namun jika diperlukan, skripsi dapat ditulis dalam dua bahasa (bahasa Inggris dan satu bahasa lain). Jadi teman-teman harus menyiapkan diri dalam kemampuan berbahasa Inggris.</p><p>Di kedua jurusan ini, teman-teman akan banyak membaca jurnal-jurnal ilmiah dalam bahasa Inggris yang nantinya akan digunakan sebagai bahan tulisan atau presentasi. Hal ini juga berhubungan dengan dokumen-dokumen yang dibutuhkan saat mendaftar ke universitas, seluruh dokumen yang tidak berbahasa Inggris harus diterjemahkan secara tersumpah ke dalam bahasa Inggris.</p>  "
+         ],
+         "warna_acc" : "background-color:#0686e8; color:#fff;"
+      },
+      {
+         "pertanyaan" : "[OULU] Apa perbedaan antara EdGlo dan LET?",
+         "tag" : [ "oulu", "edglo", "let", "jurusan" ],
+         "isi_baris" : [
+            "<p>Kedua jurusan ini berada di bawah fakultas Pendidikan di Universitas Oulu, namun tujuan pembelajaran dan bidang penelitian yang lumayan berbeda. Untuk mempermudah teman-teman untuk memahami perbedaan nya, kami buat tabel seperti di bawah ini :</p><table cellpadding=\"7\" cellspacing=\"0\"><col width=\"105\"><col width=\"208\"><col width=\"267\"><tr valign=\"top\"><td width=\"105\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"center\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\"><b>Jurusan </b></p></td><td width=\"208\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"center\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\"><b>Edglo </b></p></td><td width=\"267\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"center\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\"><b>LET </b></p></td></tr><tr valign=\"top\"><td width=\"105\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Teori-teori utama yang dipelajari </p></td><td width=\"208\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><ol><li/><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">International Theories</p><li/><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Ethics and Education</p><li/><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Development and Education</p><li/><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Comparative Education</p></ol></td><td width=\"267\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><ol><li/><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Self-regulated Learning</p><li/><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Learning of Expertise </p><li/><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Technology-Enhanced Learning </p></ol></td></tr><tr valign=\"top\"><td width=\"105\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Garis besar pembelajaran </p></td><td width=\"208\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Program ini memberikan kesempatan kepada siswa untuk mampu melihatpermasalahan global (dunia) dengan lebih utuh melalui berbagaiparadigma-paradigma yang ada di dunia. Dari berbagai teori danpemikiran yang ada, siswa akan berdiskusi, presentasi danmenuangkan ide-ide kritis yang sekiranya dapat memberikankontribusi bagi dunia pendidikan. Membaca jurnal akademik maupunbuku adalah kegiatan rutin mingguan di jurusan ini.</p></td><td width=\"267\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Dasar jurusan ini adalah <i>learning science</i> dan bagaimanateknologi mendukung proses pembelajaran. Jadi di jurusan ini kamibelajar mengenai <i>learning teories </i>dan juga teknologiseperti Google Classroom, G Suite, 3D Printing, Laser Cutting,Virtual Reality yang dapat berguna dalam proses pembelajaran.Model pembelajaran di kelas kebanyakan tugas kelompok/project dimana kami harus dengan aktif berkolaborasi. Tidak begitu banyakujian di jurusan ini. </p></td></tr><tr valign=\"top\"><td width=\"105\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Prospek Karir setelah lulus </p></td><td width=\"208\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\"><br/></p></td><td width=\"267\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">EdTech</p></td></tr><tr valign=\"top\"><td width=\"105\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Contoh Skripsi Akhir </p></td><td width=\"208\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\"><a href=\"http://jultika.oulu.fi/Search/Results?lookfor=education+and+globalization&amp;filter%5B%5D=oyk_org_level_1_eng_str_mv%3A%22Faculty+of+Education%22&amp;filter%5B%5D=oyk_thesis_type_str_mv%3A%22Master%27s+thesis%22&amp;filter%5B%5D=language%3A%22eng%22&amp;filter%5B%5D=oyk_fulltext_access_level_str_mv%3A%22Open+Access%22&amp;filter%5B%5D=publishDate%3A%22%5B2015+TO+2017%5D%22&amp;limit=20&amp;sort=relevance\"><font color=\"#1155cc\"><u>EdGlo</u></font></a></p><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\"><br/></p></td><td width=\"267\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\"><a href=\"http://jultika.oulu.fi/Search/Results?lookfor=learning%2C+education+and+technology&amp;type=AllFields&amp;filter%5B%5D=oyk_org_level_1_eng_str_mv%3A%22Faculty+of+Education%22&amp;filter%5B%5D=oyk_thesis_type_str_mv%3A%22Master%27s+thesis%22&amp;filter%5B%5D=language%3A%22eng%22&amp;filter%5B%5D=oyk_fulltext_access_level_str_mv%3A%22Open+Access%22&amp;filter%5B%5D=publishDate%3A%22%5B2015+TO+2017%5D%22\"><font color=\"#1155cc\"><u>LET</u></font></a></p></td></tr></table>"
+         ],
+         "warna_acc" : "background-color:#0686e8; color:#fff;"
+      },
+      {
+         "pertanyaan" : "[OULU] Website - website penting",
+         "tag" : [ "oulu", "eksternal" ],
+         "isi_baris" : [
+            "<table cellpadding=\"7\" cellspacing=\"0\"><col width=\"110\"><col width=\"96\"><col width=\"374\"><tr valign=\"top\"><td width=\"110\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Kebutuhan </p></td><td width=\"96\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Website </p></td><td width=\"374\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Notes </p></td></tr><tr valign=\"top\"><td width=\"110\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Informasi dan Proses Aplikasi Program Studi </p></td><td width=\"96\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">studyinfo.fi</p></td><td width=\"374\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Website ini digunakan untuk membuat aplikasi ke universitas, namunaplikasi yang dibuat di website ini harus di-<i>print </i>dandikirimkan lewat pos <b>bersama</b> dokumen-dokumen lain yangdiminta, ke alamat yang ditentukan.</p><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\"><br/></p><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Dalam 1 periode aplikasi, anda <b>dapat membuat lebih dari 1aplikasi ke beberapa universitas atau jurusan.</b> Contohnya bilaanda bingung mengenai LET dan Edglo, anda dapat membuat 1 akun danmengirimkan dokumen dalam 1 kiriman saja; tapi tentu saja di dalam1 paket tersebut <b>harus anda pisah-pisah</b> tergantung jurusanyang anda daftarkan. Instruksi bagaimana mengirim dan mengemasdokumen dapat dibaca di website saat anda sudah membuat akun.</p></td></tr><tr valign=\"top\"><td width=\"110\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Peraturan Imigrasi Finlandia </p></td><td width=\"96\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">migri.fi</p></td><td width=\"374\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Di website ini anda bisa membaca secara detail<b>persyaratan-persyaratan untuk pembuatan izin tinggal (residencepermit) </b>sebagai pelajar di Finlandia.</p></td></tr><tr valign=\"top\"><td width=\"110\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Aplikasi Visa </p></td><td width=\"96\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">enterfinland.fi</p></td><td width=\"374\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Melalui website ini anda dapat <b>membuat akun untuk mengajukanpermohonan izin tinggal</b>. Proses pembuatan Izin tinggalbiasanya mengambil waktu sekitar 30 hari setelah anda mengunjungikedutaan Finlandia di Jakarta untuk pengambilan sidik jari danverifikasi dokumen.</p><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\"><br/></p><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Jadi anda harus menghitung baik-baik antara tanggal keberangkatandan juga tanggal aplikasi izin tinggal.</p></td></tr><tr valign=\"top\"><td width=\"110\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Tempat tinggal </p></td><td width=\"96\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">psoas.fi</p></td><td width=\"374\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Area yang dapat dipilih sekitar kampus adalah ; Kaijonharju,Linnannma, dan Syynimma.</p><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\"><br/></p><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Karena sistem aplikasi adalah<i> first come first serve</i>, kamisarankan untuk membuat aplikasi sedini mungkin. Anda harus mulaimencari informasi bagaimana mengirimkan uang dari Indonesia keFinlandia, karena untuk mengkonfirmasi diperlukan deposit yangharus ditransfer dalam jangka waktu tertentu.  </p></td></tr><tr valign=\"top\"><td width=\"110\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Asuransi Kesehatan</p></td><td width=\"96\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">swisscare.com</p></td><td width=\"374\" style=\"border: 1.00pt solid #000000; padding: 0.07in\"><p align=\"left\" style=\"margin-bottom: 0in; border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Untuk pembuatan izin tinggal, asuransi harus 1 tahun.</p><p align=\"left\" style=\"border: none; padding: 0in; page-break-inside: auto; orphans: 0; widows: 0; page-break-after: auto\">Tanggal mulai asuransi adalah tanggal anda mencapai Eropa. Misalpenerbangan Anda dari Indonesia tanggal 17 Juni 2019, tapimencapai Eropa tanggal 18 Juni 2019, <b>tanggal mulai adalah 18 Juni 2019.</b></p></td></tr></table>"
+         ],
+         "warna_acc" : "background-color:#0686e8; color:#fff;"
+      },
+      {
+         "pertanyaan" : "[OULU] Perkiraan Biaya Hidup di Oulu",
+         "tag" : [ "oulu", "hidup" ],
+         "isi_baris" : [
+            "<ol><li>Saat mendaftar izin tinggal, pemerintah Finlandia mensyaratkan mahasiswa untuk mempunyai jumlah uang di rekening sebanyak 6720 euro (560 euro per bulan) yang dilampirkan berupa rekening koran.</li><ul><li>Rekening koran dapat dilampirkan dengan mata uang rupiah, asalkan jumlah yang minta kurang lebih sama jika dikonversi ke Euro.</li><li>Jika anda dibiayai institusi tertentu, maka rekening koran dapat diganti dengan surat keterangan mengenai pembiayaan tersebut.</li></ul><li>Perlu dicatat bahwa 560 euro perbulan hanyalah patokan yang diberikan oleh pemerintah Finlandia. Di realitanya <strong>anda bisa saja mengeluarkan lebih atau kurang</strong> dari jumlah tersebut. Misalnya anda mendapatkan akomodasi dari PSOAS yang berkisar sekitar 180 euro - 250 euro per kamar per bulan, mungkin bisa kurang dari 560 euro per bulan. Untuk kehidupan sehari-hari seperti makan, pulsa, dan transportasi tentu saja berbeda setiap individual tergantung kebutuhan masing-masing.</li><ul><li>Dengan memiliki kartu pelajar, Mahasiswa diberikan subsidi untuk makan di restoran yang berada di universitas di seluruh kota di Finlandia, dengan harga 2,60 euro.</li><li>Salah satu cara menghemat yang paling baik adalah menyiapkan makanan sendiri. Microwave juga tersedia di beberapa kantin di kampus, jadi anda dapat menghangatkan bekal yang anda bawa.</li><li>Menurut pengalaman kami pribadi, untuk biaya makan jika anda masak sendiri, sekitar 20-40 Euro per minggu, namun kembali lagi tergantung gaya hidup masing-masing.Untuk yang single, jika belanja mingguan (beras, telur, sayur, daging, dan bumbu-bumbu) akan menghabiskan biaya sekitar 10 - 15 euro. Belanja mingguan ini dapat memenuhi kebutuhan makan pagi dan juga makan malam di sini.</li></ul><li>Untuk pulsa jika anda menggunakan koneksi internet di ponsel, kurang lebih anda akan mengeluarkan 20 euro per bulan.</li><ul><li>Mobile data yang ditawarkan DNA (salah satu provider simcard) harganya 16.90 Euro perbulan unlimited <strong>(Feb 2018)</strong></li></ul><li>Untuk biaya transportasi, jika anda memiliki kartu bus, biaya sekali jalan adalah 2.05 Euro.</li><ul><li>Jika anda berlangganan kartu bulanan untuk pelajar, biayanya 42 Euro unlimited. 42 euro mencakup area city center dan kampus (Linnanmaa).</li><li>Jika anda tinggal di area Linnanmaa/Kaijonharju/Synnimaa, anda tidak begitu memerlukan bus untuk sarana transportasi. Bus digunakan jika cuaca tidak mendukung untuk bersepeda ke city center.</li><ul></ol>"
+         ],
+         "warna_acc" : "background-color:#0686e8; color:#fff;"
+      },
+      {
+         "pertanyaan" : "[OULU] Cara mengirim dokumen dari Indonesia ke Finlandia",
+         "tag" : [ "oulu", "kirimdok" ],
+         "isi_baris" : [
+            "<p>Ada beberapa kurir pengiriman yang menyediakan layanan pengiriman ke luar negeri seperti; EMS, DHL, UPS, Fedex, dll. Menurut kami, kurir apa saja tidak jadi masalah asalkan dokumen dapat sampai tepat waktu dan lebih baik mendukung tracking.</p><ul><li>Untuk Adel, Adrian dan Dody mereka menggunakan DHL, biayanya sekitar Rp. 600.000 - 700.000,- pada saat itu. Dokumen sampai ke Finlandia sekitar 3-7 hari kerja.</li><li>Sementara berdasarkan pengalaman Chysta, PT POS Indonesia mempunyai jasa untuk mengirim dokumen ke luar negeri, namanya EMS dengan biaya sekitar Rp. 350.000 dan lama pengiriman 10 hari sampai dengan 14 hari. Namun kemungkinan layanan ini hanya ada di kantor pos besar. Biaya kirim berubah tergantung kurs USD dan tahun pengiriman.</li><li>Informasi mengenai biaya dan bagaimana cara mengirim dapat dicek langsung di website masing-masing kurir.</li></ul>"
+         ],
+         "warna_acc" : "background-color:#0686e8; color:#fff;"
+      },
+      {
+         "pertanyaan" : "[OULU] Cara mengirim uang dari Indonesia ke Finlandia",
+         "tag" : [ "oulu", "kirimuang" ],
+         "isi_baris" : [
+            "<p>Pembayaran yang harus dilakukan sebelum berangkat ke Finlandia hanyalah untuk membayar deposit PSOAS sebagai konfimasi akomodasi. Hal ini dapat dilakukan dengan beberapa cara:</p><ul><li>Transfer bank : hampir semua bank di Indonesia melayani pengiriman uang ke LN, hanya tergantung biaya pengiriman dan nilai tukar pada saat itu.</li><li>Melalui Money Changer : Beberapa money changer menyediakan layanan untuk pengirimin uang, jadi kurang lebih prosesnya sama seperti membeli valuta asing. Namun valuta asing tersebut tidak kita dapatkan dalam bentuk uang tapi dikirimkan langsung.</li><li>Western Union : tentu nama ini sudah tidak asing lagi, western union menurut kami lumayan mudah ditemui di Indonesia dan mereka memberikan layanan pengiriman uang ke LN.</li></ul>"
+         ],
+         "warna_acc" : "background-color:#0686e8; color:#fff;"
+      },
+      {
+         "pertanyaan" : "[OULU] Sarana apa saja yang dapat digunakan ke Oulu dari Helsinki?",
+         "tag" : [ "oulu", "transportasi", "helsinki" ],
+         "isi_baris" : [
+            "<p>Hampir seluruh penerbangan dari Asia akan menawarkan rute hanya sampai Helsinki. Ada beberapa cara untuk sampai <strong>ke Oulu dari Helsinki :</strong></p><ol><li>Bus : Jika anda memesan jauh-jauh hari, anda bisa mendapatkan tiket bus semurah 5 Euro ke Oulu. Onnibus terkenal sebagai bus termurah ke berbagai rute di Finlandia. Namun anda harus siap untuk duduk selama 9 jam di bus untuk sampai di Oulu. Dari airport anda harus mengambil kereta ke pusat kota helsinki untuk mengambil bus. Jadi jika anda memilih untuk naik bus, anda harus menghitung waktu dari Airport ke pusat kota yang sekitar 30 menit.</li><li>Kereta : Jika anda membuat akun di Vr.fi, anda bisa mendapatkan harga yang lebih murah. Tiket kereta berkisar sekitar 25-50 euro sekali jalan dengan jarak tempuh 6-8 jam (tergantung jenis kereta yang anda pilih). <strong>Anda dapat memilih kereta dari Airport (Helsinki Airport, bukan Oulu).</strong></li><li>Pesawat : Hanya ada 2 maskapai yang terbang ke Oulu dari Helsinki, Norwegian Air dan Finnair. Biaya tiket dengan bagasi sekitar 50-80 Euro sekali jalan. Jika anda tidak memiliki bagasi, jika beruntung kadang anda dapat terbang dengan hanya 25 Euro menggunakan Norwegian Air.</li><ul><li>Penerbangan tercepat dari Asia ke Finlandia adalah Finnair. Finnair adalah satu-satunya maskapai yang memiliki penerbangan langsung dari Singapore ke Helsinki selama 12 jam.</li><li>Namun ada banyak penerbangan lain dari Jakarta ke Helsinki, seperti Qatar Airlines, Turkish Airlines, Luftansa Air, Cathay Air, KLM dan masi banyak lagi. Biaya 1 kali jalan jika menggunakan pesawat dari Jakarta - Oulu kurang lebih berkisar sekitar 500-700 Euro sekali jalan.</li></ul></ol>"
+         ],
+         "warna_acc" : "background-color:#0686e8; color:#fff;"
+      }
+   ],
+   "footer" : {
+      "link" : {
+         "pertanyaan" : "Sumber eksternal info :",
+         "tag" : [ "eksternal" ],
+         "isi_tautan" : [
+            {
+               "teks" : "www.studyinFinland.fi",
+               "link" : "https://www.studyinfinland.fi"
+            },
+            {
+               "teks" : "www.studyinfo.fi",
+               "link" : "https://www.studyinfo.fi"
+            },
+            {
+               "teks" : "www.weforum.org",
+               "link" : "https://www.weforum.org"
+            },
+            {
+               "teks" : "www.helsinki.fi",
+               "link" : "https://www.helsinki.fi"
+            },
+            {
+               "teks" : "www.frank.fi",
+               "link" : "https://www.frank.fi"
+            },
+            {
+               "teks" : "www.instagram.com/ppidunia",
+               "link" : "https://www.instagram.com/ppidunia"
+            },
+            {
+               "teks" : "www.w3schools.com filter, accordion, scrolltotop",
+               "link" : "https://www.w3schools.com"
+            },
+            {
+               "teks" : "www.sharingbuttons.io",
+               "link" : "https://www.sharingbuttons.io"
+            },
+            {
+               "teks" : "www.sharingbuttons.io",
+               "link" : "https://www.sharingbuttons.io"
+            },
+            {
+               "teks" : "Icons made by <a href=\"http://www.freepik.com\" title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a> is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a>"
+            }
+         ]
+      },
+      "kontributor" : {
+         "pertanyaan" : "Kontributor pengumpulan info :",
+         "tag" : [ "kontributor" ],
+         "isi_tautan" : [
+            {
+               "teks" : "Nadhira"
+            },
+            {
+               "teks" : "Dini"
+            },
+            {
+               "teks" : "Adrian"
+            },
+            {
+               "teks" : "Doddy"
+            },
+            {
+               "teks" : "Amhar"
+            },
+            {
+               "teks" : "Chysta"
+            }
+         ]
+      }
+   },
+   "karosel" : {
+      "tabel" : {
+         "isi_tautan" : [
+            {
+               "teks" : "<img src=\"kecil-1.png\">",
+               "link" : "https://www.instagram.com/p/BibqfjEA6UD/"
+            },
+            {
+               "teks" : "<img src=\"kecil-2.png\">",
+               "link" : "https://www.instagram.com/p/Bibq0tYAYru/"
+            },
+            {
+               "teks" : "<img src=\"kecil-3.png\">",
+               "link" : "https://www.instagram.com/p/BibDTOKgrNL/"
+            },
+            {
+               "teks" : "<img src=\"kecil-4.png\">",
+               "link" : "https://www.instagram.com/p/BibDC_TAicf/"
+            },
+            {
+               "teks" : "<img src=\"kecil-5.png\">",
+               "link" : "https://www.instagram.com/p/BibDMN_gbk_/"
+            },
+            {
+               "teks" : "<img src=\"kecil-6.png\">",
+               "link" : "https://www.instagram.com/p/BiaXvLag7XT/"
+            },
+            {
+               "teks" : "<img src=\"kecil-7.png\">",
+               "link" : "https://www.instagram.com/p/BiaXksEg1Vd/"
+            },
+            {
+               "teks" : "<img src=\"kecil-8.png\">",
+               "link" : "https://www.instagram.com/p/BiaXZCkAPtO/"
+            }
+         ]
+      }
+   },
+   "katakunci" : [
+      {
+         "selection" : "all",
+         "active" : true,
+         "teks" : "Seluruhnya"
+      },
+      {
+         "selection" : "oulu",
+         "teks" : "OULU"
+      },
+      {
+         "selection" : "agama",
+         "teks" : "agama"
+      },
+      {
+         "selection" : "akademik",
+         "teks" : "akademik"
+      },
+      {
+         "selection" : "administrasi",
+         "teks" : "administrasi"
+      },
+      {
+         "selection" : "aman",
+         "teks" : "aman"
+      },
+      {
+         "selection" : "bahasa",
+         "teks" : "bahasa"
+      },
+      {
+         "selection" : "beasiswa",
+         "teks" : "beasiswa"
+      },
+      {
+         "selection" : "nonformal",
+         "teks" : "Beasiswa nonformal"
+      },
+      {
+         "selection" : "hidup",
+         "teks" : "biaya hidup"
+      },
+      {
+         "selection" : "bekerja",
+         "teks" : "bekerja"
+      },
+      {
+         "selection" : "diskon",
+         "teks" : "diskon"
+      },
+      {
+         "selection" : "doktoral",
+         "teks" : "doktoral"
+      },
+      {
+         "selection" : "edglo",
+         "teks" : "EDGLO"
+      },
+      {
+         "selection" : "fasilitas",
+         "teks" : "fasilitas"
+      },
+      {
+         "selection" : "favorit",
+         "teks" : "favorit"
+      },
+      {
+         "selection" : "gratis",
+         "teks" : "gratis"
+      },
+      {
+         "selection" : "halal",
+         "teks" : "halal"
+      },
+      {
+         "selection" : "jurusan",
+         "teks" : "jurusan"
+      },
+      {
+         "selection" : "kantin",
+         "teks" : "kantin"
+      },
+      {
+         "selection" : "kesehatan",
+         "teks" : "kesehatan"
+      },
+      {
+         "selection" : "kirimdok",
+         "teks" : "kirim dokumen"
+      },
+      {
+         "selection" : "kirimuang",
+         "teks" : "kirim uang"
+      },
+      {
+         "selection" : "kualitas",
+         "teks" : "kualitas"
+      },
+      {
+         "selection" : "linearitas",
+         "teks" : "linearitas"
+      },
+      {
+         "selection" : "let",
+         "teks" : "LET"
+      },
+      {
+         "selection" : "loa",
+         "teks" : "LoA"
+      },
+      {
+         "selection" : "makanan",
+         "teks" : "makanan"
+      },
+      {
+         "selection" : "master",
+         "teks" : "master"
+      },
+      {
+         "selection" : "helsinki",
+         "teks" : "Oulu <--> Helsinki"
+      },
+      {
+         "selection" : "pendaftaran",
+         "teks" : "pendaftaran"
+      },
+      {
+         "selection" : "puasa",
+         "teks" : "puasa"
+      },
+      {
+         "selection" : "proses",
+         "teks" : "proses"
+      },
+      {
+         "selection" : "rp",
+         "teks" : "Residence Permit"
+      },
+      {
+         "selection" : "sarjana",
+         "teks" : "sarjana"
+      },
+      {
+         "selection" : "sosial",
+         "teks" : "sosial"
+      },
+      {
+         "selection" : "suasana",
+         "teks" : "suasana"
+      },
+      {
+         "selection" : "eksternal",
+         "teks" : "Sumber info eksternal"
+      },
+      {
+         "selection" : "transportasi",
+         "teks" : "transportasi"
+      },
+      {
+         "selection" : "vegan",
+         "teks" : "vegan"
+      },
+      {
+         "selection" : "vegetarian",
+         "teks" : "vegetarian"
+      }
+   ]
+}
