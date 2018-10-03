@@ -29,3 +29,5 @@ AM = {
 		}
 	}
 }
+
+AM.memuat(true);
