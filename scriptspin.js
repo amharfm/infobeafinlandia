@@ -29,5 +29,3 @@ AM = {
 		}
 	}
 }
-
-AM.memuat(true);
