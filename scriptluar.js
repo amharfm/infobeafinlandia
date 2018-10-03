@@ -175,7 +175,7 @@ function muat (){
 
         cek_IE(
             function(){
-                document.getElementById("panel_0").innerHTML = "<img src='./proses.jpg' width=545>";
+                document.getElementById("panel_0").innerHTML = "<img src='./proses.jpg' width=100%>";
             },
             function(){
                 mermaid.initialize({
