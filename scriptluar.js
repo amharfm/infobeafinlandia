@@ -171,9 +171,11 @@ var perpus;
         }
         
         var xmlhttp = new XMLHttpRequest();
+          AM.memuat(false);
           xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 perpus = JSON.parse(this.responseText);
+                AM.memuat(false);
                 bikin_semua(perpus);
                 AM.memuat(false);
                 filters();
@@ -181,6 +183,7 @@ var perpus;
           }
           xmlhttp.open("GET", "./perpustakaan.json", true);
           xmlhttp.send();
+          AM.memuat(false);
 	}
     
 // When the user scrolls down 20px from the top of the document, show the button
