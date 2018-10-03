@@ -56,18 +56,18 @@ function muat (){
 
         var ua = navigator.userAgent || navigator.vendor || window.opera;
         var isInstagram = (ua.indexOf('Instagram') > -1) ? true : false;
-        // console.log(isInstagram)
-        // if (document.documentElement.classList ){
-        // }
+        // https://supergeekery.com/blog/detecting-the-instagram-in-app-browser
 
         if (isIE){
             iftrue();
         } else {
             if (isInstagram) {
                 window.document.body.classList.add('instagram-browser');
-                alert(navigator.appVersion);
+                // alert(navigator.appVersion);
+                iftrue();
+            } else {
+                iffalse();
             }
-            iffalse();
         }
     }
 
