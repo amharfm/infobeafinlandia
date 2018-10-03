@@ -175,7 +175,7 @@ function muat (){
 
         cek_IE(
             function(){
-                document.getElementById("panel_0").innerHTML = "<img src='./proses.jpg'>";
+                document.getElementById("panel_0").innerHTML = "<img src='./proses.jpg' width=545>";
             },
             function(){
                 mermaid.initialize({
@@ -191,9 +191,9 @@ function muat (){
         xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             perpus = JSON.parse(this.responseText);
-            AM.memuat(false);
+            // AM.memuat(false);
             bikin_semua(perpus);
-            AM.memuat(false);
+            // AM.memuat(false);
             filters();
             AM.memuat(false);
         }
